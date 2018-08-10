@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_insert_picture"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/tv_insert_picture"
+        android:gravity="center"
+        android:textColor="@color/tv_color_text"
+        android:textSize="30sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/tv_color_text"></View>
+
+    <LinearLayout
+        android:id="@+id/ll_take_phote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:drawable/ic_menu_camera" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:text="@string/tv_take_photo"
+            android:textColor="@color/tv_color_text_view"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_choose_phote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:drawable/ic_menu_gallery" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:text="@string/tv_choose_photo"
+            android:textColor="@color/tv_color_text_view"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textColor="@color/tv_color_text"
+        android:textSize="30sp"
+        android:text="@string/tv_choose_date"
+        android:gravity="center_vertical"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/tv_color_text">
+
+    </View>
+
+    <DatePicker
+        android:id="@+id/dp_date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner">
+
+    </DatePicker>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/bt_date_exit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/backround_bt"
+            android:text="@string/bt_exit"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/bt_date_ok"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/backround_bt"
+            android:text="@string/bt_ok"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

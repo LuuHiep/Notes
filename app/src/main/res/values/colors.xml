@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dialog_camera">#000</color>
+    <color name="tv_color_text">#17ecec</color>
+    <color name="background_view">#17ecec</color>
+    <color name="tv_color_text_view">#454343</color>
+
+
+
+    <color name="background_view_1">#CCC</color>
+    <color name="backround_bt">#FFF</color>
+</resources>

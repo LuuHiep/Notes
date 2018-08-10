@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AppNote</string>
+
+
+    <string name="new_note_activity"> NEW NOTE ACTIVITY</string>
+    <string name="et_title">Title</string>
+    <string name="et_content">Content</string>
+    <string name="test"> test</string>
+    <string name="bt_alarm">Alarm</string>
+
+    <string name="dialog_camera">DIALOG CAMERA</string>
+    <string name="tv_insert_picture">Insert Picture</string>
+    <string name="tv_take_photo">Take Photo</string>
+    <string name="tv_choose_photo">Choose Photo</string>
+
+    <string name="dialog_setColor">DIALOG SET COLOR</string>
+    <string name="tv_setColor">Choose  đ Color</string>
+
+    <string name="menu_add">Add</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_color">Color</string>
+    <string name="menu_save">Save</string>
+
+    <string name="time_picker">TIME PICKER</string>
+    <string name="tv_choose_time">Choose Time</string>
+    <string name="tv_choose_date">Choose Date</string>
+    <string name="bt_exit">EXIT</string>
+    <string name="bt_ok">OK</string>
+</resources>
